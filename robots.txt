@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xerxex52.github.io/Circuit-Detective/sitemap.xml
