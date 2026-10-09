@@ -32,3 +32,6 @@ footer{padding-top:33px;padding-bottom:35px;border-top:1px solid var(--line)}.fo
 @media(max-width:600px){.document-header{padding:18px 20px}.document-header .brand{font-size:15px}.document-header>.text-link{font-size:12px}.document-shell{padding:36px 22px 60px}.document-back{margin-bottom:35px}.document-intro{font-size:18px}.document-content{font-size:16px}.document-content h2{font-size:23px}.document-content ol{padding-left:22px}}
 
 .store-status{padding:12px 16px;text-align:center;transition:background .18s ease}.store-status:hover{background:#eeeece}.store-status:focus-visible{outline:3px solid var(--mint);outline-offset:5px}
+
+/* Version 1.2 preview: truthful release status and an uncropped iPhone capture. */
+.release-preview{padding:14px 18px;border-left:3px solid var(--copper);background:#16342b;color:var(--muted);font-size:13px;line-height:1.65;margin:22px 0}.phone-preview{max-width:1000px;margin:36px auto 0}.phone-preview .screenshot img{aspect-ratio:auto;height:auto;object-fit:contain}.phone-preview figcaption{font-size:12px;line-height:1.6;color:var(--muted);margin-top:12px}
