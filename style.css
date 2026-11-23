@@ -35,3 +35,24 @@ footer{padding-top:33px;padding-bottom:35px;border-top:1px solid var(--line)}.fo
 
 /* Version 1.2 preview: truthful release status and an uncropped iPhone capture. */
 .release-preview{padding:14px 18px;border-left:3px solid var(--copper);background:#16342b;color:var(--muted);font-size:13px;line-height:1.65;margin:22px 0}.phone-preview{max-width:1000px;margin:36px auto 0}.phone-preview .screenshot img{aspect-ratio:auto;height:auto;object-fit:contain}.phone-preview figcaption{font-size:12px;line-height:1.6;color:var(--muted);margin-top:12px}
+
+/* The first repair and seasonal preview use stills from the actual game. */
+.hero { min-height: 0; padding-block: clamp(2.5rem, 6vw, 5.75rem); }
+.hero h1 { font-size: clamp(3rem, 5.3vw, 5rem); }
+.repair-visual { min-width: 0; margin: 0; border: 1px solid #436054; border-radius: 16px; overflow: hidden; background: #102922; }
+.repair-visual a, .repair-visual img { display: block; width: 100%; }
+.repair-visual img { height: auto; }
+.repair-visual figcaption { display: flex; flex-wrap: wrap; align-items: baseline; gap: .4rem 1rem; padding: 1rem 1.25rem; color: #d1ded3; font-size: .9rem; }
+.repair-visual strong { color: var(--copper); font-family: var(--mono); white-space: nowrap; }
+.video-frame { aspect-ratio: 1920 / 886; }
+.film-locales { display: flex; flex-wrap: wrap; gap: .7rem 1.4rem; padding: 1.1rem; }
+.film-locales a { text-decoration: underline; text-underline-offset: 4px; }
+.season { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 5vw, 5rem); align-items: center; margin-block-start: clamp(3rem, 8vw, 7rem); padding-block: 2rem; border-block: 1px solid #986b47; }
+.season h2 { color: #ffd598; margin-bottom: .9rem; }
+.season p:not(.eyebrow) { color: #d3ded4; max-width: 47ch; line-height: 1.6; }
+.season .eyebrow { color: #f4b28b; }
+.season .screenshot { width: 100%; }
+@media (max-width: 700px) {
+  .season { grid-template-columns: 1fr; }
+  .hero { gap: 1.5rem; }
+}

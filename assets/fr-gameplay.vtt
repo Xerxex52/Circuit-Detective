@@ -1,27 +1,19 @@
 WEBVTT
 
-1
-00:00:00.200 --> 00:00:04.200 line:8%
-Votre établi en 3D.
-Un espace pour explorer et expérimenter.
+00:00:00.000 --> 00:00:07.500
+La résistance de 100 Ω se met en place. La LED s’allume.
 
-2
-00:00:04.500 --> 00:00:15.052 line:8%
-Construisons un circuit : un fil,
-une résistance, une LED et le retour.
+00:00:07.500 --> 00:00:14.500
+Deux branches sont câblées sur la plaque d’essai.
 
-3
-00:00:15.352 --> 00:00:19.058 line:8%
-Mise sous tension : la LED s’allume.
-Le courant est d’environ 9 mA.
+00:00:14.500 --> 00:00:17.800
+Le multimètre indique 9 V.
 
-4
-00:00:19.358 --> 00:00:23.082 line:8%
-Passons de 330 Ω à 1 kΩ.
-Le courant diminue à environ 3 mA.
+00:00:17.800 --> 00:00:20.200
+Le signal carré apparaît dans la fenêtre de la mission.
 
-5
-00:00:23.382 --> 00:00:24.933 line:8%
-Une idée, un circuit, un nouvel essai.
-À vous de jouer.
+00:00:20.200 --> 00:00:25.000
+À l’atelier, la fréquence passe de 1 à 2 Hz.
 
+00:00:25.000 --> 00:00:29.800
+Les LED du sapin clignotent.
