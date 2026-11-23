@@ -56,3 +56,5 @@ footer{padding-top:33px;padding-bottom:35px;border-top:1px solid var(--line)}.fo
   .season { grid-template-columns: 1fr; }
   .hero { gap: 1.5rem; }
 }
+.game-languages { margin: 1rem 0 0; max-width: 46ch; color: #c6d6cc; font-size: .9375rem; line-height: 1.5; }
+.game-languages strong { color: #f4f2e7; }
